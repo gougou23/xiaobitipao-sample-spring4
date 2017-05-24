@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 16pt;
+}
+
+.userList ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.userList ul li:first-child {
+    border-top: 0px;
+}
+
+.userList ul li {
+    border-top: 1px solid #cccccc;
+}
+
+span.error {
+    color: red;
+}
+
+div.errors {
+    background-color: #FFCCCC;
+    border: 2px solid red;
+}
+
+label.error {
+    color: red;
+}
+
+input.error {
+    background-color: #CCFFFF;
+}

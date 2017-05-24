@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="base" template="/WEB-INF/layout/page.jsp">
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="navi" value="/WEB-INF/layout/navi.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+
+    <!-- 主页面（初始欢迎页面） -->
+    <definition name="index" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+    </definition>
+
+    <!-- 登录页面 -->
+    <definition name="login" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+    </definition>
+
+    <definition name="user/register" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/user/register.jsp" />
+    </definition>
+
+    <definition name="user/profile" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/user/profile.jsp" />
+    </definition>
+
+    <definition name="user/list" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/user/list.jsp" />
+    </definition>
+    
+    <!-- 错误处理页面 -->
+    <definition name="error/upload" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/error/upload.jsp" />
+    </definition>
+    <definition name="error/hasnotdata" extends="base">
+        <put-attribute name="body" value="/WEB-INF/views/error/hasnotdata.jsp" />
+    </definition>
+</tiles-definitions>

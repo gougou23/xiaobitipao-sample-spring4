@@ -1,0 +1,14 @@
+很好的　Ｗｅｂ　开发相关参考连接，基于　ＮＴＴ　Ｄａｔａ　提供的　Ｆｒａｍｅｗｏｒｋ　TERASOLUNA
+https://terasolunaorg.github.io/
+https://terasolunaorg.github.io/guideline/public_review/index.html
+https://terasolunaorg.github.io/guideline/public_review/ArchitectureInDetail/
+
+很好的　Ｓｐｒｉｎｇ　ＭＶＣ　相关参考连接
+# https://sites.google.com/site/soracane/home/springnitsuite/spring-mvc/09-tuo-dang-xingchekkunitsuite
+# http://qiita.com/kazuki43zoo/items/757b557c05f548c6c5db
+# http://www.concretepage.com/spring-4/spring-4-mvc-internationalization-i18n-and-localization-l10n-annotation-example
+# http://www.concretepage.com/spring-4/
+
+
+很好的　Ｓｐｒｉｎｇ　ＲｅｓｔＡＰＩ　相关的参考连接
+# http://www.concretepage.com/spring-4/spring-mvc-4-rest-jackson-jsonview-annotation-integration-example
